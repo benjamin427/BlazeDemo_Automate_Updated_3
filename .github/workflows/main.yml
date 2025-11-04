@@ -7,6 +7,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v5
       - name: cypress.io
-        uses: cypress-io/github-action@v6.1.0
+        uses: cypress-io/github-action@v6
         with:
           start: npm run cypress:open:electron
