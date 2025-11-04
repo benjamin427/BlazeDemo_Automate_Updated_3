@@ -9,5 +9,5 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-          working-directory: ./BlazeDemo_Automate_Updated_4/cypress
+          working-directory: ../cypress
           start: npm run cypress:open:electron
