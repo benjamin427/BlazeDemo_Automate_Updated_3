@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v5
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
