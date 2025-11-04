@@ -7,7 +7,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v5
       - name: cypress.io
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v6.1.0
         with:
-#          working-directory: /Users/Benjamin/Documents/BlazeDemo_Automate_Updated_4/cypress
           start: npm run cypress:open:electron
