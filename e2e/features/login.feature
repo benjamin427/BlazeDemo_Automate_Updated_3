@@ -1,5 +1,4 @@
 Feature: Login page
-
     Scenario: User enters login credentials
         Given Navigate to the website
         Then Enter login credentials
