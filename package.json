@@ -23,11 +23,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.7",
     "cypress": "^15.5.0"
   },
-  "cypress-cucumber-preprocessor": {
-    "state": {
-      "softErrors": true
-    }
-  },
+
   "devDependencies": {
     "chai": "^6.2.0",
     "cypress-xpath": "^2.0.1",
