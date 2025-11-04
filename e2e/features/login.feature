@@ -1,4 +1,4 @@
-Feature: Login page
+Feature: BlazeDemo.com
     Scenario: User enters login credentials
         Given Navigate to the website
         Then Enter login credentials
